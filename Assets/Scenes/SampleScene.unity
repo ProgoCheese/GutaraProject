@@ -1891,7 +1891,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 124835256}
   m_Direction: 2
   m_Value: 1.0000001
-  m_Size: 0.3625871
+  m_Size: 0.3625875
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -1984,7 +1984,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_Color: {r: 1, g: 0, b: 0, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -5913,8 +5913,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
+  m_Sprite: {fileID: 21300000, guid: 3588fe32f35c61e4ca85cc17d1be178e, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -6827,7 +6827,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -9140,8 +9140,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u0426\u043E\u0439-\u0433\u0440\u0443\u043F\u043F\u0430 \u043A\u0440\u043E\u0432\u0438\n\n\n
-    Am\r\n \u0422\u0451\u043F\u043B\u043E\u0435 \u043C\u0435\u0441\u0442\u043E, \u043D\u043E
+  m_Text: "\u0426\u043E\u0439-\u0433\u0440\u0443\u043F\u043F\u0430 \u043A\u0440\u043E\u0432\u0438\n\n\nAm\r\n
+    \u0422\u0451\u043F\u043B\u043E\u0435 \u043C\u0435\u0441\u0442\u043E, \u043D\u043E
     \u0443\u043B\u0438\u0446\u044B \u0436\u0434\u0443\u0442\r\n      Em          
     Am\r\n \u041E\u0442\u043F\u0435\u0447\u0430\u0442\u043A\u043E\u0432 \u043D\u0430\u0448\u0438\u0445
     \u043D\u043E\u0433.\r\n              G\r\n \u0417\u0432\u0451\u0437\u0434\u043D\u0430\u044F
@@ -9164,20 +9164,19 @@ MonoBehaviour:
     \u041D\u0435 \u043E\u0441\u0442\u0430\u0442\u044C\u0441\u044F \u0432 \u044D\u0442\u043E\u0439
     \u0442\u0440\u0430\u0432\u0435.\r\n        Dm\r\n   \u041F\u043E\u0436\u0435\u043B\u0430\u0439
     \u043C\u043D\u0435 \u0443\u0434\u0430\u0447\u0438,\r\n        G        Am\r\n  
-    \u041F\u043E\u0436\u0435\u043B\u0430\u0439 \u043C\u043D\u0435 \u0443\u0434\u0430\u0447\u0438.\r\n\r\n\u041F\u0440\u043E\u0438\u0433\u0440\u044B\u0448:\r\n
-    | Am Em |\r\n\r\n\u041A\u0443\u043F\u043B\u0435\u0442 2:\r\n   Am\r\n \u0418
-    \u0435\u0441\u0442\u044C \u0447\u0435\u043C \u043F\u043B\u0430\u0442\u0438\u0442\u044C,
-    \u043D\u043E \u044F \u043D\u0435 \u0445\u043E\u0447\u0443\r\n    Em          
-    Am\r\n \u041F\u043E\u0431\u0435\u0434\u044B \u043B\u044E\u0431\u043E\u0439 \u0446\u0435\u043D\u043E\u0439.\r\n               
+    \u041F\u043E\u0436\u0435\u043B\u0430\u0439 \u043C\u043D\u0435 \u0443\u0434\u0430\u0447\u0438.\r\n\r\n\u041F\u0440\u043E\u0438\u0433\u0440\u044B\u0448:\r\n|
+    Am Em |\r\n\r\n\u041A\u0443\u043F\u043B\u0435\u0442 2:\r\n   Am\r\n \u0418 \u0435\u0441\u0442\u044C
+    \u0447\u0435\u043C \u043F\u043B\u0430\u0442\u0438\u0442\u044C, \u043D\u043E \u044F
+    \u043D\u0435 \u0445\u043E\u0447\u0443\r\n    Em           Am\r\n \u041F\u043E\u0431\u0435\u0434\u044B
+    \u043B\u044E\u0431\u043E\u0439 \u0446\u0435\u043D\u043E\u0439.\r\n               
     G\r\n \u042F \u043D\u0438\u043A\u043E\u043C\u0443 \u043D\u0435 \u0445\u043E\u0447\u0443
     \u0441\u0442\u0430\u0432\u0438\u0442\u044C \u043D\u043E\u0433\u0443 \u043D\u0430
     \u0433\u0440\u0443\u0434\u044C.\r\n      Am\r\n \u042F \u0445\u043E\u0442\u0435\u043B
     \u0431\u044B \u043E\u0441\u0442\u0430\u0442\u044C\u0441\u044F \u0441 \u0442\u043E\u0431\u043E\u0439,\r\n  
     Em                 Am\r\n \u041F\u0440\u043E\u0441\u0442\u043E \u043E\u0441\u0442\u0430\u0442\u044C\u0441\u044F
-    \u0441 \u0442\u043E\u0431\u043E\u0439,\r\n                             G\r\n
-    \u041D\u043E \u0432\u044B\u0441\u043E\u043A\u0430\u044F \u0432 \u043D\u0435\u0431\u0435
-    \u0437\u0432\u0435\u0437\u0434\u0430 \u0437\u043E\u0432\u0451\u0442 \u043C\u0435\u043D\u044F
-    \u0432 \u043F\u0443\u0442\u044C.\r\n\r\n\u041F\u0440\u0438\u043F\u0435\u0432:\r\n           
+    \u0441 \u0442\u043E\u0431\u043E\u0439,\r\n                             G\r\n\u041D\u043E
+    \u0432\u044B\u0441\u043E\u043A\u0430\u044F \u0432 \u043D\u0435\u0431\u0435 \u0437\u0432\u0435\u0437\u0434\u0430
+    \u0437\u043E\u0432\u0451\u0442 \u043C\u0435\u043D\u044F \u0432 \u043F\u0443\u0442\u044C.\r\n\r\n\u041F\u0440\u0438\u043F\u0435\u0432:\r\n           
     Am\r\n   \u0413\u0440\u0443\u043F\u043F\u0430 \u043A\u0440\u043E\u0432\u0438
     - \u043D\u0430 \u0440\u0443\u043A\u0430\u0432\u0435,\r\n                   Em\r\n  
     \u041C\u043E\u0439 \u043F\u043E\u0440\u044F\u0434\u043A\u043E\u0432\u044B\u0439
@@ -9905,7 +9904,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -10795,8 +10794,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
+  m_Sprite: {fileID: 21300000, guid: f8d2ee520f0b88d40805fd2744ef0584, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -11074,8 +11073,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
+  m_Sprite: {fileID: 21300000, guid: f8d2ee520f0b88d40805fd2744ef0584, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
